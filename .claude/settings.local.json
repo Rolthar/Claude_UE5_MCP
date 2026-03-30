@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(tsc --version)",
+      "Bash(npm show:*)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(cat /c/dev/MCP_Test/*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.get\\(''''exports'''',{}\\).keys\\(\\)\\)[:20]\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"const g = await import\\(''glob''\\); console.log\\(Object.keys\\(g\\)\\)\")",
+      "Bash(node --input-type=module -e \"import { glob } from ''glob''; console.log\\(''glob ok''\\)\")",
+      "Bash(node --input-type=module -e \"import pkg from ''''./node_modules/glob/package.json'''', {assert: {type: ''''json''''}}; console.log\\(pkg.version\\)\")"
+    ]
+  }
+}

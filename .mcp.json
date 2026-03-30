@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ue5": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:/thisDir/dist/index.js"],
+      "env": {
+        "UE5_RC_URL": "http://127.0.0.1:30010",
+        "UE5_PROJECT_SOURCE": "C:\\yourUE5Project\\Source",
+        "UE5_LOG_PATH": "C:\\Github\\yourUE5Project\\Saved\\Logs\\yourUE5Project.log",
+        "UE5_ALLOW_FILE_WRITE": "true",
+        "UE5_WRITE_EXTENSIONS": ".cpp,.h",
+        "UE5_STAGING_TTL_MS": "600000"
+      }
+    }
+  }
+}
