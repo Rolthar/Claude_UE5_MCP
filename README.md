@@ -82,8 +82,8 @@ Add a `.mcp.json` file in the root of the project you want the tools available i
       "args": ["C:/dev/ue5_MCP/dist/index.js"],
       "env": {
         "UE5_RC_URL": "http://127.0.0.1:30010",
-        "UE5_PROJECT_SOURCE": "C:\\Github\\ue5_stormsphere\\Source",
-        "UE5_LOG_PATH": "C:\\Github\\ue5_stormsphere\\Saved\\Logs\\ue5_stormsphere.log",
+        "UE5_PROJECT_SOURCE": "C:\\Github\\MyProject\\Source",
+        "UE5_LOG_PATH": "C:\\Github\\MyProject\\Saved\\Logs\\MyProject.log",
         "UE5_ALLOW_FILE_WRITE": "false"
       }
     }
@@ -96,8 +96,8 @@ Alternatively, add it via the CLI:
 ```bash
 claude mcp add --transport stdio \
   --env UE5_RC_URL=http://127.0.0.1:30010 \
-  --env "UE5_PROJECT_SOURCE=C:\Github\ue5_stormsphere\Source" \
-  --env "UE5_LOG_PATH=C:\Github\ue5_stormsphere\Saved\Logs\ue5_stormsphere.log" \
+  --env "UE5_PROJECT_SOURCE=C:\Github\MyProject\Source" \
+  --env "UE5_LOG_PATH=C:\Github\MyProject\Saved\Logs\MyProject.log" \
   --env UE5_ALLOW_FILE_WRITE=false \
   ue5 -- node C:/dev/ue5_MCP/dist/index.js
 ```
@@ -116,8 +116,8 @@ If you also want to use it with Claude Desktop, add to `%APPDATA%\Claude\claude_
       "args": ["C:/dev/ue5_MCP/dist/index.js"],
       "env": {
         "UE5_RC_URL": "http://127.0.0.1:30010",
-        "UE5_PROJECT_SOURCE": "C:\\Github\\ue5_stormsphere\\Source",
-        "UE5_LOG_PATH": "C:\\Github\\ue5_stormsphere\\Saved\\Logs\\ue5_stormsphere.log",
+        "UE5_PROJECT_SOURCE": "C:\\Github\\MyProject\\Source",
+        "UE5_LOG_PATH": "C:\\Github\\MyProject\\Saved\\Logs\\MyProject.log",
         "UE5_ALLOW_FILE_WRITE": "false"
       }
     }
